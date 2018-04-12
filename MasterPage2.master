@@ -1,0 +1,92 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Two Factor</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.jcarousel.setup.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<div class="wrapper col1">
+  <div id="header">
+    <div id="logo">
+      <h1><a href="index.html">Secure Data Share</a></h1>
+      <p>Two-Factor Authentication</p>
+    </div>
+    <div id="topnav">
+      <ul>
+        <li class="active"><a href="Default17.aspx">Home</a></li>
+        <li><a href="Default2.aspx">File Upload</a></li>
+        <li><a href="Default8.aspx">Request</a></li>
+      <%--  <li><a href="Default13.aspx">Attack</a></li>--%>
+        <li class="last"><a href="Default14.aspx">Logout</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="featured_slide">
+    <div id="featured_content">
+      <ul>
+        <li><img src="images/demo/1.jpg" alt="" />
+          <div class="floater">
+            <h2>Two-Factor Authentication !</h2>
+            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+          </div>
+        </li>
+        <li><img src="images/demo/2.jpg" alt="" />
+          <div class="floater">
+            <h2>Secure Data Sharing Scheme</h2>
+          
+            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+          </div>
+        </li>
+        <li><img src="images/demo/3.jpg" alt="" />
+          <div class="floater">
+            <h2>ENHANCED SECURITY PROTECTION !</h2>
+           
+            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <a href="javascript:void(0);" id="featured-item-prev"><img src="layout/images/prev.png" alt="" /></a> <a href="javascript:void(0);" id="featured-item-next"><img src="layout/images/next.png" alt="" /></a> </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col3">
+  <div id="container">
+       <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>  
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+  <div id="footer">
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <br class="clear" />
+  </div>
+</div>
+      
+</body>
+</html>

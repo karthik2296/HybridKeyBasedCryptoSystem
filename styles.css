@@ -1,0 +1,214 @@
+/* --------------- Einstellung für alle Elemente ---------------*/
+html * { 
+			margin: 0; 
+			padding:0; 
+		}
+
+
+
+/* --------------- page ---------------*/
+
+
+
+
+/* --------------- Header ---------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------- content ---------------*/
+#ccontent {
+	clear: left;
+	float: left;
+	width:954px;
+	padding: 20px 0px 30px 0px;
+	background: url(images/bg_ccontent.gif) left bottom no-repeat #fff;
+}
+
+#leftmenue {
+	clear: left;
+	float: left;
+	width: 165px;
+	margin: 10px 50px 0px 27px;
+	text-align: right;
+    height: 345px;
+}
+#leftmenue h2{
+	margin: 0px 0px 1.0em 0px;
+	font-size: 125.00%;
+	color: #e6784c;
+	text-transform: lowercase;
+	font-weight: bold;
+}
+#leftmenue ul{
+	list-style-type: none;
+}
+#leftmenue ul li{
+	margin: 12px 0px 12px 0px;
+	list-style-type: none;
+}
+#leftmenue ul li a{
+	color: #666;
+	text-decoration: none;
+}
+#leftmenue ul li a:hover{
+	color: #e6784c;
+}
+#leftmenue ul li a:hover.active,
+#leftmenue ul li a.active{
+	color: #e6784c;
+	font-weight: bold;
+}
+
+
+#hpv24{
+	clear: left;
+	float: left;
+	width: 165px;
+	margin: 0px 50px 0px 27px;
+	font-size: 75.00%;
+	color: #666;
+	text-align: right;
+}
+#hpv24 a{
+	color: #7ea227;
+}
+
+
+
+#content {
+	float: left;
+	width: 688px;
+	line-height: 1.7em;
+}
+#content h1{
+	margin: 0px 0px 1.0em 0px;
+	font-size: 200.00%;
+	font-weight: normal;
+	text-transform: lowercase;
+	color: #e6784c;
+}
+#content h2{
+	font-size: 112.50%;
+	color: #000;
+	text-transform: lowercase;
+}
+#content p{
+	margin: 0px 0px 1.3em 0px;
+    width: 704px;
+}
+
+#content a{
+	color: #e6784c;
+}
+
+#content a:hover{
+	color: #000;
+}
+
+#content #links {
+	clear: left;
+	float: left;
+	width: 290px;
+	font-size: 82.50%;
+}
+#content #ressourcen {
+	float: left;
+	font-size: 82.50%;
+}
+#content #links ul ,
+#content #ressourcen ul{
+	list-style-type: none;
+}
+
+#content #links ul li,
+#content #ressourcen ul li{
+	list-style-type: none;
+}
+
+#content #links ul li a,
+#content #ressourcen ul li a{
+	padding: 0px 0px 0px 20px;
+	background: url(images/pointer01.gif) left 4px no-repeat;
+	color: #7ea227;
+}
+
+#content #links ul li a:hover,
+#content #ressourcen ul li a:hover{
+	color: #e6784c;
+}
+
+/* --------------- footer ---------------*/
+#footer {
+	clear: left;
+	float: left;
+	width: 850px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 10px 0px;
+	color: #517791;
+	font-size: 82.50%;
+}
+#copyright {
+	float: left;
+	margin: 0px 0px 0px 20px;
+}
+#fmenue {
+	float: right;
+	margin: 0px 20px 0px 0px;
+}
+#fmenue ul{
+	list-style-type: none;
+}
+#fmenue ul li{
+	list-style-type: none;
+	float: left;
+}
+#fmenue ul li a{
+	margin: 0px 4px 0px 4px;
+	color: #517791;
+}
+
+/* --------------- Formulare ---------------*/
+#kontaktform {
+	clear: left;
+	float: left;
+	line-height: normal;
+	width: 440px;
+	margin: 0px 0px 30px 0px;
+	padding: 0px 10px 30px 10px;
+	background-color: #efefef;
+}
+#kontaktform label {
+	clear: left;
+	float: left;
+	width: 100px;
+	margin: 10px 0px 0px 0px;
+}
+#kontaktform label.plabel {
+	font-weight: bold;
+}
+#kontaktform input,
+#kontaktform select,
+#kontaktform textarea {
+	float: left;
+	width: 325px;
+	margin: 10px 0px 0px 0px;
+}
+#kontaktform input.submit {
+	width: auto;
+	float: right;
+	margin: 10px 0px 0px 0px;
+}
+#kontaktform input.reset {
+	width: auto;
+	float: right;
+	margin: 10px 0px 0px 0px;
+}
